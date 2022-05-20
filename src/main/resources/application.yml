@@ -1,0 +1,44 @@
+# prueba-back
+info:
+  description: Prueba técnica para desarrollador backend.
+  environment:
+  name: prueba-backend
+  version: 0.0.1
+
+# Spring
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+    show-sql: true
+
+# Server
+server:
+  port: 8081
+
+# Swagger - OpenApi 3
+springdoc:
+  api-docs:
+    path: /api-docs
+  packages-to-scan: com.oospina.pruebabackend.controllers
+  swagger-ui:
+    enabled: true
+    disable-swagger-default-url: true
+    syntaxHighlight:
+      activated: true
+      theme: obsidian
+swagger:
+  api:
+    title: prueba-backend
+    version: 1.0
+    description: Prueba técnica para desarrollador backend.
+    name: Prueba
