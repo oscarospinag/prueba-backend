@@ -2,6 +2,14 @@
 
 Prueba técnica para desarrollador backend
 
+Se realiza prueba java spring boot donde se crea un crud para usuarios y tareas 
+en el cual usuarios maneja toda lógica de dicha api, ya que un usuario puede
+crear muchas tareas. Separo por paquetes cada una de las capas teniendo un mejor orden
+y organización. Efectúo validaciones de posibles excepciones que pueda tener la aplicación controlándolas y enviando su mensaje al usuario. 
+Por la parte del filtro se crea un controller para tareas y así poder filtrar una tarea 
+por criterios (fecha ini,fecha fina, idUser) donde la consulta persiste las tareas con el idUsuario
+
+
 ## Pre-requisitos
 
 1. Tener instalado GIT en su computadora
@@ -13,7 +21,7 @@ Prueba técnica para desarrollador backend
 Para obtener una copia de este proyecto ejecute el siguiente comando.
 
 ```bash
-git clone xxxxx
+git clone https://github.com/oscarospinag/prueba-backend.git
 ```
 ___
 # Uso
