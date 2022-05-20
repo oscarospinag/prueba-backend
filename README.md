@@ -32,7 +32,7 @@ Lo primero que debes conocer es el uso del archivo __application.yml__, el cual 
 
 ## Sección Server
 
-En esta sección podras ver la configuración del servidor, donde se le indica el puerto de salida __```port: 8081```__, al iniciar la aplicacion podra acceder a ella desde su navegador ingresando a la url __http://localhost:8080__ .
+En esta sección podras ver la configuración del servidor, donde se le indica el puerto de salida __```port: 8081```__, al iniciar la aplicacion podra acceder a ella desde su navegador ingresando a la url __http://localhost:8081__ .
 
 ```yaml
 server:
